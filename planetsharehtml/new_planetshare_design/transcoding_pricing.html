@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlanetShare</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Planetshare">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Planetshare">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Guntur:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel='shortcut icon' type='image/png' href='images/favicon.png' />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />   
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/viewer.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/viewer.js"></script>
+	<script src="js/custom.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <header class="home_header">
+        <div class="header_wrap">
+            <div class="header_row">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                </div>
+                <!--Search Bar-->
+                <div class="searchbox">
+                    <form action="javascript:;">
+                        <div class="inputbox">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input type="text" placeholder="Search Photos and Videos" />
+                            <button type="submit">Search</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </form>
+                    <div class="clearfix"></div>
+                </div>
+                <!--end search bar-->
+                <nav class="planet_nav planet_nav_right">
+                    <ul>
+                        <li>
+                            <a href="partner.html">Partner with us</a>
+                        </li>
+                        <li>
+                            <a href="vendor_detail.html">Sell on Planetshare</a>
+                        </li>
+                        <!-- <li>
+                            <a href="login.html">Login</a>
+                        </li> -->
+                        <li class="dropdown user_infodet">
+                            <a class="icon_user_login" href="Javascript:;"><span><i class="fa fa-user-circle" aria-hidden="true"></i></span></a>
+                            <div class="overlay"></div>
+                            <div class="user_infobox">
+                                <span class="closebtn">&#10005;</span>
+                                <div class="user_name">
+                                    <h3>Hi, rohitkumar1992</h3>
+                                    <span>User ID: 192839495</span>
+                                    <a href="edit_profile.html" class="prof_edit_icon"><i class="fa fa-pencil"></i></a>
+                                </div>
+                                <div class="browse_plan">
+                                    <h3>Browse plans and pricing</h3>
+                                    <ul class="browse_list">
+                                        <li><a href="pricing.html">Images</a></li>
+                                        <li><a href="pricing.html">Music</a></li>
+                                        <li><a href="pricing.html">Videos</a></li>
+                                        <li><a href="pricing.html">Editorial</a></li>
+                                    </ul>
+                                </div>
+                                <div class="links">
+                                    <ul class="link_list">
+                                        <li><a href="javascript:;"><i class="fa fa-university" aria-hidden="true"></i> Account Details</a></li>
+                                        <li class="features">
+                                            <a href="javascript:;" data-toggle="collapse" data-target="#features_list"><i class="fa fa-sticky-note-o" aria-hidden="true"></i> Collections</a>
+                                            <ul class="features_list" id="features_list" style="display:none;">
+                                                <li><a href="collection.html">Image Collection</a></li>
+                                                <li><a href="collection.html">Video Collection</a></li>
+                                                <li><a href="collection.html">Music Collection</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="features">
+                                            <a href="javascript:;" data-toggle="collapse" data-target="#down_list"><i class="fa fa-download" aria-hidden="true"></i> Downloads</a>
+                                            <ul class="features_list" id="down_list" style="display:none;">
+                                                <li><a href="downloads.html">Image Download</a></li>
+                                                <li><a href="downloads.html">Video Download</a></li>
+                                                <li><a href="downloads.html">Music Download</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="javascript:;"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="login.html" class="btn btn_join">Join</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="header_bot">
+            <div class="header_row">
+                <nav class="navbar navbar-expand-md">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon">X</span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="Javascript:;" data-toggle="dropdown">Transcoding</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="javascript:;">Logo Design <span class="fit-tag">new</span></a>
+                                    <a class="dropdown-item" href="javascript:;">Business Cards & Stationery</a>
+                                    <a class="dropdown-item" href="javascript:;">Illustration</a>
+                                    <a class="dropdown-item" href="javascript:;">Brochure Design</a>
+                                    <a class="dropdown-item" href="javascript:;">Poster Design</a>
+                                    <a class="dropdown-item" href="javascript:;">Flyer Design</a>
+                                    <a class="dropdown-item" href="javascript:;">Cartoons & Comics</a>
+                                    <a class="dropdown-item" href="javascript:;">Portraits & Caricatures</a>
+                                    <a class="dropdown-item" href="javascript:;">Packaging Design</a>
+                                    <a class="dropdown-item" href="javascript:;">Infographic Design</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Dubbing</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Auto Tagging</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Subtitling & Caption</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Streaming</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Archiving</a>
+                            </li> 
+                        </ul>
+                    </div> 
+                </nav>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <div class="sticky_header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="" /></a>
+            </div>
+            <!--Search Bar-->
+            <div class="searchbox">
+                <form action="javascript:;">
+                    <div class="inputbox">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" placeholder="Search Photos and Videos" />
+                        <button type="submit">Search</button>
+                    </div>
+                    <div class="clearfix"></div>
+                </form>
+                <div class="clearfix"></div>
+            </div>
+            <!--end search bar-->
+        </div>
+    </div>
+    <!--end header-->
+
+
+    <!-- service banner -->
+    <section class="ser_banner trans">
+        <div class="container">
+            <div class="caption">
+                <h2>ApsaraVideo Media Processing</h2>
+                <p>A cloud service for transcoding multimedia data into various output resolutions, bit rates, and formats for unhindered playback</p>
+                <div class="buttons">
+                    <a class="btndefault" href="javascript:">Buy Now</a>
+                    <a class="btndefault" href="javascript:">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <!-- end service banner -->
+
+
+    <!--Inner content-->
+    <section class="inner_cont trans_ser">
+
+        <div class="tabs_link sticky-top">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:">Overview</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="javascript:">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:">Documentation <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="trans_layout pric">
+            <div class="container">
+                <h2>ApsaraVideo for Media Processing Pricing</h2>
+                <p>Price calculation formula: Transcoding fee = Output file duration x Transcoding unit price</p>
+                <p>Output duration: For each output file, fees are calculated by minute, with durations precise to two decimal places and the second decimal place rounded up if the third decimal place is 5 or larger. Videos of less than 1 second are counted as 0.02 minutes.</p>
+                <form action="javascript:">
+                    <div class="inputbox">
+                        <label><i class="fa fa-map-marker" aria-hidden="true"></i> Region</label>
+                        <select>
+                            <option>Japan</option>
+                            <option>Mumbai</option>
+                            <option>Hong Kong</option>
+                            <option>Singapur</option>
+                        </select>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <td>Output Specification</td>
+                                    <td>Pay-As-You-Go (USD/Minute)</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>H.264 4K (3840 x 2160)</td>
+                                    <td>0.05</td>
+                                </tr>
+                                <tr>
+                                    <td>H.264 4K (3840 x 2160)</td>
+                                    <td>0.05</td>
+                                </tr>
+                                <tr>
+                                    <td>H.264 4K (3840 x 2160)</td>
+                                    <td>0.05</td>
+                                </tr>
+                                <tr>
+                                    <td>H.264 4K (3840 x 2160)</td>
+                                    <td>0.05</td>
+                                </tr>
+                                <tr>
+                                    <td>H.264 4K (3840 x 2160)</td>
+                                    <td>0.05</td>
+                                </tr>
+                                <tr>
+                                    <td>H.264 4K (3840 x 2160)</td>
+                                    <td>0.05</td>
+                                </tr>
+                                <tr>
+                                    <td>H.264 4K (3840 x 2160)</td>
+                                    <td>0.05</td>
+                                </tr>
+                                <tr>
+                                    <td>H.264 4K (3840 x 2160)</td>
+                                    <td>0.05</td>
+                                </tr>
+                                <tr>
+                                    <td>H.264 4K (3840 x 2160)</td>
+                                    <td>0.05</td>
+                                </tr>
+                                <tr>
+                                    <td>H.264 4K (3840 x 2160)</td>
+                                    <td>0.05</td>
+                                </tr>
+                                <tr>
+                                    <td>H.264 4K (3840 x 2160)</td>
+                                    <td>0.05</td>
+                                </tr>
+                                <tr>
+                                    <td>H.264 4K (3840 x 2160)</td>
+                                    <td>0.05</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+                <div class="cont">
+                    <p>Description:</p>
+                    <p>1. The output specification is determined by the long and short sides of the output video resolution. For example, output video resolutions where the horizontal side does not exceed 1280 and the vertical side does not exceed 720 are regarded as the SD (1280 x 720) specification. If the horizontal side of the output video exceeds 1280 or the vertical side exceeds 720, this video provides a higher specification.</p>
+                    <p>2. Above price is for normal transcoding, the price of narrowband HD 1.0 is triple the normal price.</p>
+                </div>
+                <div class="cont">
+                    <p>Considerations</p>
+                    <p>1. Service suspension mechanism</p>
+                    <p>When your current account balance is insufficient, Alibaba Cloud will suspend your service within 15 days. After service is suspended, you cannot submit any new tasks, and Alibaba does not provide Media Processing for tasks you have already submitted for execution. However, tasks that are currently in the state of transcoding will continue until they are complete. If you top up your account within 15 days (360 hours (15 x 24) from the time of account suspension), your suspended Media Processing service is restored and can continue to use the service. After 15 days, tasks you have submitted for execution are released, and your data cannot be recovered.</p>
+                    <p>2. Other considerations</p>
+                    <p>Transcoding resources are allocated through mutually independent pipelines. A single transcoding resource can only process one task at a time. Media Processing supports shared transcoding resources, and each user is given a quota of such resources. The maximum number of tasks simultaneously processed for a single user cannot exceed the quota. When the system is busy, the number of jobs simultaneously processed may be less than the quota of the shared transcoding resources.</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <!--end inner content-->
+
+
+    <!--footer-->
+    <footer class="h_footer">
+        <article class="f_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="box">
+                            <h5>Categories</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Business</a></li>
+                                <li><a href="javascript:;">Fashion</a></li>
+                                <li><a href="javascript:;">Healthcare</a></li>
+                                <li><a href="javascript:;">Science</a></li>
+                                <li><a href="javascript:;">Wildlife</a></li>
+                                <li><a href="javascript:;">Beauty</a></li>
+                                <li><a href="javascript:;">Education</a></li>
+                                <li><a href="javascript:;">Food & Drink</a></li>
+                                <li><a href="javascript:;">Holidays</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>About</h5>
+                            <ul class="links">
+                                <li><a href="aboutus.html#overview">Overview</a></li>
+                                <li><a href="aboutus.html#leadership">Leadership</a></li>
+                                <li><a href="aboutus.html#awards">Awards and Achievements</a></li>
+                                <li><a href="javascript:;">Our Value Proposition</a></li>
+                                <li><a href="javascript:;">Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Support & Solutions</h5>
+                            <ul class="links">
+                                <li><a href="selling_on_planetshare.html">Selling on Planetshare</a></li>
+                                <li><a href="buying_on_planetshare.html">Buying on Planetshare</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Other</h5>
+                            <ul class="links">
+                                <li><a href="terms_services.html">Terms & Conditions</a></li>
+                                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                                <li><a href="contactus.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Services</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Transcoding</a></li>
+                                <li><a href="javascript:;">Dubbing</a></li>
+                                <li><a href="javascript:;">Automatic Tagging</a></li>
+                                <li><a href="javascript:;">Subtitling</a></li>
+                                <li><a href="javascript:;">Archiving</a></li>
+                                <li><a href="javascript:;">Streaming</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="f_bot">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <div class="f_logo">
+                                <a href="javascript:;"><img src="images/logo.png" alt="" /></a>
+                            </div>
+                            <div class="copy">
+                                <p>© 2019 COPYRIGHT @ PLANETCAST ALL RIGHTS RESERVED.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <ul class="foot_social">
+                                <li>
+                                    <a href="https://www.facebook.com/Planetshare/" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/Planetshare_" target="_blank"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/planetshare" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UC3WZWabEFmWwwkZtwGoRfVA" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="clearfix"></div>
+    </footer>
+    <!--end footer-->
+</body>
+
+</html>
