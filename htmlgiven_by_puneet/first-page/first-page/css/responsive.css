@@ -1,0 +1,55 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+#counts .container.pdtop {padding-top: 10px;}	
+.counts .count-box span {font-size: 20px;}	
+.counts h2.discover-info {font-size: 18px;}
+#section-4 .slide-icon {
+    color: #000000;
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    line-height: 59px;}
+	#section-4 .slide-icon:hover {
+    color: #000000;
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    line-height: 59px;
+}
+.team .member-info3 {
+    min-height: 160px;
+}
+.team h2.customer-profile {text-align: center;}
+.team h5.customer-name {text-align: center;}
+#section-7 .container.pdtop {padding: 50px 0px;}
+#section-7 h3.text-center.text-shadow.subtext {font-size: 16px;}
+#section-8 h2 {font-size: 23px;}
+.section-title {padding-bottom: 0px;}
+.counts .count-box p {font-size: 14px;}
+#home-banner h1.main-text {
+    font-size: 30px;
+    
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+.counts .count-box span {font-size: 35px;}	
+#section-4 .slide-icon {
+    color: #000000;
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    line-height: 59px;}
+	#section-4 .slide-icon:hover {
+    color: #000000;
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    line-height: 59px;
+}
+#section-7 {height: 45vh;}	
+
+
+.team .card-content {
+    margin: 0px 20px;
+}
+}

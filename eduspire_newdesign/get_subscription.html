@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Eduspire</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Planetshare">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Planetshare">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+ 
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link href="css/jquery-ui.min.css" rel="stylesheet" />
+    <link href="css/jquery.multiselect.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />   
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/slick.css" type="text/css" />
+    <link rel="stylesheet" href="css/all.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.multiselect.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/wow.js"></script>
+	<script src="js/custom.js"></script>
+</head>
+
+<body>
+    <header class="home_header">
+        <div class="header-top">
+            <div class="box l">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                </div>
+                <button class="btn btn_dropdown" onClick="parent.location='choose_your_goal.html'">CBSE Class 10 <i class="fa fa-angle-down"></i></button>
+            </div>
+            <nav class="navbar navbar-expand-md">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon">X</span>
+                </button>
+                <div class="mobile_bg"></div>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <span class="close_icon" style="display: none;">X</span>
+                    <div class="searchbox dropdown">
+                        <form action="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+                            <div class="inputbox">
+                                <input type="text" placeholder="Search for courses, lessons and educators" />
+                                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="clearfix"></div>
+                        </form>
+                        <div class="dropdown-menu">
+                            <h3>Trending</h3>
+                            <ul>
+                                <li>
+                                    <a href="javascript:;"><i class="fas fa-directions"></i> Bhunesh Sharma</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"><i class="fas fa-directions"></i> Ankit avasthi</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"><i class="fas fa-directions"></i> Vishal Sharma</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <ul class="navbar-nav l">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="Javascript:;" data-toggle="dropdown">Become an instructor</a>
+                            <ul class="dropdown-menu txt">
+                                <h2>Get your team access to over 4,000 top Udemy courses, anytime, anywhere.</h2>
+                                <a href="javascript:;" class="btndefault">Try Eduspire for Business</a>
+                            </ul>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link btn" href="javascript:;" onclick="openNav()">Login</a>
+                            <div class="side_overley" id="side_overley" onclick="closeNav()"></div>
+                            <div id="mySidenav" class="sidenav">
+                                <div class="login_cont">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                    <form action="javascript:;" class="reg_form">
+                                        <div class="login_area" id="login_area">
+                                            <h2>Login</h2>
+                                            <p class="o_l">or <a href="javascript:;" id="create_acc" onclick="createacc()">create your account</a></p>
+                                            <div class="field dropdown">
+                                                <div class="flag dropdown-toggle" id="cont_code" data-toggle="dropdown">
+                                                    <div class="icon">
+                                                        <img src="images/icon_flag_1.png" alt="" />
+                                                    </div>
+                                                    <span class="code">+91 <i class="fa fa-angle-down"></i></span>
+                                                </div>
+                                                <div class="dropdown-menu">
+                                                    <ul>
+                                                        <li>
+                                                            <span>Afganistan</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Afgania</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Alberia</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <input type="tel" id="tel" placeholder="Enter your mobile number" />
+                                                <input type="email" id="email" placeholder="Email address" />
+                                            </div>
+                                            <div class="buttons">
+                                                <button type="submit" class="btn btn_login" disabled="disabled">Login</button>
+                                                <a href="javascript:;" id="log_by_email" onclick="loginemail()">Continue with email</a>
+                                                <a href="javascript:;" id="log_by_phone" onclick="loginnumber()">Continue with mobile number</a>
+                                            </div>
+                                        </div>
+                                        <div class="login_area signup_area" id="signup_area">
+                                            <h2>Join Eduspire</h2>
+                                            <p class="o_l">or <a href="javascript:;" id="login_acc" onclick="loginacc()">login to your account</a></p>
+                                            <div class="field dropdown">
+                                                <div class="flag dropdown-toggle" id="cont_code" data-toggle="dropdown">
+                                                    <div class="icon">
+                                                        <img src="images/icon_flag_1.png" alt="" />
+                                                    </div>
+                                                    <span class="code">+91 <i class="fa fa-angle-down"></i></span>
+                                                </div>
+                                                <div class="dropdown-menu">
+                                                    <ul>
+                                                        <li>
+                                                            <span>Afganistan</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Afgania</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Alberia</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <input type="tel" id="tel" placeholder="Enter your mobile number" />
+                                            </div>
+                                            <div class="buttons">
+                                                <button type="submit" class="btn btn_login" disabled="disabled">Continue</button>
+                                            </div>
+                                        </div>
+                                        <div class="login_area otp_ar" id="otp_ar">
+                                            <h2>Enter OTP</h2>
+                                            <p class="o_l">We've sent an OTP to your registered mobile number</p>
+                                            <div class="field dropdown">
+                                                <div class="flag dropdown-toggle" id="cont_code" data-toggle="dropdown">
+                                                    <div class="icon">
+                                                        <img src="images/icon_flag_1.png" alt="" />
+                                                    </div>
+                                                    <span class="code">+91 <i class="fa fa-angle-down"></i></span>
+                                                </div>
+                                                <div class="dropdown-menu">
+                                                    <ul>
+                                                        <li>
+                                                            <span>Afganistan</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Afgania</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Alberia</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <input type="tel" id="tel" placeholder="Enter your mobile number" />
+                                                <div class="icon_edit">Edit</div>
+                                            </div>
+                                            <div class="field">
+                                                <input type="password" placeholder="One time password" />
+                                            </div>
+                                            <div class="field">
+                                                <input type="text" placeholder="Name" />
+                                            </div>
+                                            <div class="field">
+                                                <input type="text" placeholder="Email address" />
+                                            </div>
+                                            <div class="field">
+                                                <div class="select_batch" id="select1">
+                                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="selected">State of residence</span> <span class="icon"><i class="fa fa-angle-down"></i><i class="fa fa-angle-up"></i></span></button>
+                                                    <ul class="dropdown-menu option" role="menu">
+                                                        <li id="1"><a href="javascript:;">State of residence</a></li>
+                                                        <li id="2"><a href="javascript:;">Delhi</a></li>
+                                                        <li id="3"><a href="javascript:;">Bihar</a></li>
+                                                        <li id="4"><a href="javascript:;">Chandigadh</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="buttons">
+                                                <button type="submit" class="btn btn_login" disabled="disabled">Verify OTP</button>
+                                                <p>
+                                                    <a href="javascript:;" id="resend_otp">Resend OTP</a> 
+                                                    Or 
+                                                    <a href="callto:3984939292" id="bycall">Call</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="note">
+                                        <p id="login_note">Having trouble? Please contact <a href="mailto:help@eduspire.com">help@eduspire.com</a> for further support.</p>
+                                        <p id="signup_note">By signing up, you agree to <a href="javascript:;">Terms & Conditions</a> and  <a href="javascript:;">Privacy Policy</a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div> 
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="inner_cont">
+        <div class="container">
+            <div class="get_subscr">
+                <div class="row">
+                    <div class="col-md-5 col-sm-5">
+                        <div class="box l">
+                            <div class="subscpt_slide">
+                                <div class="owl-carousel" id="get_subscr">
+                                    <div class="item">
+                                        <div class="img">
+                                            <img src="images/subscription_slide_1.svg" alt="" />
+                                        </div>
+                                        <div class="desc">
+                                            <h3>Structured courses</h3>
+                                            <p>All our courses are structured in line with your exam syllabus to help you best prepare for it</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img">
+                                            <img src="images/subscription_slide_2.svg" alt="" />
+                                        </div>
+                                        <div class="desc">
+                                            <h3>Interactive Live Classes</h3>
+                                            <p>Chat with the educator, engage in discussions and ask your questions - all during a class</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img">
+                                            <img src="images/subscription_slide_3.svg" alt="" />
+                                        </div>
+                                        <div class="desc">
+                                            <h3>Live test and quizzes</h3>
+                                            <p>Take live Mock Tests curated in line with the exam pattern and stay on track with your preparation</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-7">
+                        <div class="box r">
+                            <form action="javascript:;">
+                                <h2>CBSE Class 10 subscription</h2>
+                                <p class="t">Choose a plan and proceed</p>
+                                <div class="emi_box">
+                                    <p><img src="images/sale_discount.png" alt="" /> No cost EMI now available on 6, 12 and 24 months subscription</p>
+                                </div>
+                                <div class="plan_list">
+                                    <ul>
+                                        <li>
+                                            <div class="box">
+                                                <label for="plan_check1">
+                                                    <div class="left">
+                                                        <input id="plan_check1" type="radio" name="plan" />
+                                                        <span class="check_btn"><i class="fas fa-check"></i></span>
+                                                        <h3>1 month <span></span></h3>
+                                                    </div>
+                                                    <div class="right">
+                                                        <div class="per_m">
+                                                            <p>
+                                                                <span>per month</span>
+                                                                <i class="fas fa-rupee-sign"></i>8,000
+                                                            </p>
+                                                        </div>
+                                                        <div class="t_prc">
+                                                            <p>
+                                                                <i class="fas fa-rupee-sign"></i>8,000
+                                                                <span>Total (Incl. of all taxes)</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box">
+                                                <label for="plan_check2">
+                                                    <div class="left">
+                                                        <input id="plan_check2" type="radio" name="plan" />
+                                                        <span class="check_btn"><i class="fas fa-check"></i></span>
+                                                        <h3>3 month <span>17% off</span></h3>
+                                                    </div>
+                                                    <div class="right">
+                                                        <div class="per_m">
+                                                            <p>
+                                                                <span>per month</span>
+                                                                <i class="fas fa-rupee-sign"></i>6,667
+                                                            </p>
+                                                        </div>
+                                                        <div class="t_prc">
+                                                            <p>
+                                                                <i class="fas fa-rupee-sign"></i>20,000
+                                                                <span>Total (Incl. of all taxes)</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box">
+                                                <label for="plan_check3">
+                                                    <div class="left">
+                                                        <input id="plan_check3" type="radio" name="plan" />
+                                                        <span class="check_btn"><i class="fas fa-check"></i></span>
+                                                        <h3>6 month <span>33% off</span></h3>
+                                                    </div>
+                                                    <div class="right">
+                                                        <div class="per_m">
+                                                            <p>
+                                                                <span>per month</span>
+                                                                <i class="fas fa-rupee-sign"></i>5,333
+                                                            </p>
+                                                        </div>
+                                                        <div class="t_prc">
+                                                            <p>
+                                                                <i class="fas fa-rupee-sign"></i>32,000
+                                                                <span>Total (Incl. of all taxes)</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box">
+                                                <label for="plan_check4">
+                                                    <div class="left">
+                                                        <input id="plan_check4" type="radio" name="plan" />
+                                                        <span class="check_btn"><i class="fas fa-check"></i></span>
+                                                        <h3>12 month <span>58% off</span></h3>
+                                                    </div>
+                                                    <div class="right">
+                                                        <div class="per_m">
+                                                            <p>
+                                                                <span>per month</span>
+                                                                <i class="fas fa-rupee-sign"></i>3,333
+                                                            </p>
+                                                        </div>
+                                                        <div class="t_prc">
+                                                            <p>
+                                                                <i class="fas fa-rupee-sign"></i>40,000
+                                                                <span>Total (Incl. of all taxes)</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box">
+                                                <label for="plan_check5">
+                                                    <div class="left">
+                                                        <input id="plan_check5" type="radio" name="plan" />
+                                                        <span class="check_btn"><i class="fas fa-check"></i></span>
+                                                        <h3>24 month <span>75% off</span></h3>
+                                                    </div>
+                                                    <div class="right">
+                                                        <div class="per_m">
+                                                            <p>
+                                                                <span>per month</span>
+                                                                <i class="fas fa-rupee-sign"></i>2,000
+                                                            </p>
+                                                        </div>
+                                                        <div class="t_prc">
+                                                            <p>
+                                                                <i class="fas fa-rupee-sign"></i>48,000
+                                                                <span>Total (Incl. of all taxes)</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="gift_ar">
+                                    <div class="bx l">
+                                        <img src="images/icon_gift.svg" alt="" />
+                                        <div class="inputbox"><input type="text" placeholder="Have a referral code?" /></div>
+                                    </div>
+                                    <div class="bx">
+                                        <button type="submit" class="btndefault big" onClick="parent.location='proceed_to_pay.html'">Proceed to Pay</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <footer class="h_footer">
+        <div class="container">
+            <div class="f_area">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="box l">
+                            <div class="f_logo">
+                                <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                            </div>
+                            <div class="social_links">
+                                <ul>
+                                    <li>
+                                        <a href="javascript:;"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="copy">
+                                <p>&copy; 2020 Eduspire Pvt Ltd</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="box m">
+                            <ul class="links">
+                                <li>
+                                    <a href="javascript:;">About us</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">Careers</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">Blogs</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">Terms and Conditions</a>
+                                </li>
+                            </ul>
+                            <ul class="links">
+                                <li>
+                                    <a href="javascript:;">User Guidelines</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">Site Map</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">Refund Policy</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">Legal Notices</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">Plus Subscriptions T&C</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box r">
+                            <div class="app_links">
+                                <h4>Learner app</h4>
+                                <div class="icons">
+                                    <a href="javascript:;">
+                                        <img src="images/icon_google_play.svg" alt="" />
+                                    </a>
+                                    <a href="javascript:;">
+                                        <img src="images/icon_google_play1.svg" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="app_links">
+                                <h4>Educator app</h4>
+                                <div class="icons">
+                                    <a href="javascript:;">
+                                        <img src="images/icon_google_play.svg" alt="" />
+                                    </a>
+                                    <a href="javascript:;">
+                                        <img src="images/icon_google_play1.svg" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+</body>
+
+</html>

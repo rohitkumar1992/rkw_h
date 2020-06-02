@@ -1,0 +1,823 @@
+.bussiness-page .banner-1 {
+    width: 100%;
+    height: 45rem;
+    background: #505763 url(../images/header-image.jpg) center center;
+    background-size: cover;
+    position: relative;
+    padding:0;
+	
+}
+
+.bussiness-page .overlay {
+    top: 0;
+    background-color: #fafaf7;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    left: 0;
+    bottom: 0;
+    -webkit-clip-path: polygon(0 0,100% 0,90% 100%,0 100%);
+    clip-path: polygon(0 0,100% 0,90% 100%,0 100%);
+}
+
+
+.bussiness-page .banner-title {
+    max-width: 540px;
+}
+
+
+
+.bussiness-page h1.main-text {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-bottom: 40px;
+    
+}
+
+.bussiness-page span.text-2 {
+    background-color: #cd4747;
+    
+}
+
+.bussiness-page .banner-title1 {
+    border-left: 10px solid #cd4747;
+    /* height: 40px; */
+}
+ .bussiness-page .border-l-8.banner-title1 {
+    width: 40%;
+    font-size: 21px;
+    padding: 0px 15px;
+	    margin-bottom: 4rem;
+}
+
+.bussiness-page .banner-1 input[type="email"] {
+    outline: none;
+    height: 60px;
+    padding: 11px 0 5px 20px;
+    background: #fff;
+    font-size: 0.9em;
+    color: #888;
+     width:50%;
+    margin-right: 1em;
+    border: none;
+    letter-spacing: 2px;
+	border:1px solid #e0e0e0;
+}
+
+.bussiness-page span.more-text {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.bussiness-page h1.main-text.text-one {
+    color: #151348;
+}
+
+.bussiness-page button.email-btn.demo-btn {
+    background-color: #cd4747;
+	margin-top: 30px;
+}
+
+.bussiness-page button.email-btn.demo-btn:hover {
+    background-color: #4c0000;
+}
+
+.bussiness-page h4.color-red {
+    color: #cd4747;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.bussiness-page h2.sub-text
+ {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 55px;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bussiness-page .email-btn {
+    background-color: #991919;
+    font-size: 18px;
+    height: 60px;
+    color: #fff;
+    border: none;
+    width: 200px;
+	font-weight: 500;
+}
+
+.bussiness-page .btn-get-started {
+  
+    font-weight: 700;
+    font-size: 15px;
+    display: inline-block;
+    padding: 17px 60px;
+    border-radius: 0px;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+    background: #ec5252;
+    
+}
+
+.bussiness-page .btn-get-started:hover {
+    background: #992337;
+}
+
+
+
+.bussiness-page section.logo-section {
+    background-color:#1e1d68;
+    padding: 80px;
+}
+
+.bussiness-page section.logo-section h2 {
+    color: #706ee9;
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+	margin-bottom: 45px;
+}
+
+
+
+.bussiness-page .banner-2 .brand-carousel {
+  background: #eee;
+  margin-top: 10%;
+}
+
+.bussiness-page .banner-2 .owl-dots{
+  text-align: center;
+}
+
+.bussiness-page .banner-2 .owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #222222 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.bussiness-page .banner-2 .owl-dot.active {
+  background-color: #FF170F !important;
+}
+
+
+
+/* ignore the code below */
+
+
+.bussiness-page .banner-2 .link-area
+{
+  position:fixed;
+  bottom:20px;
+  left:20px;  
+  padding:15px;
+  border-radius:40px;
+  background:tomato;
+}
+
+.bussiness-page .banner-2 .link-area a
+{
+  text-decoration:none;
+  color:#fff;
+  font-size:25px;
+}
+
+
+.bussiness-page section#logo-section {
+    padding-bottom: 70px;
+    background-color: #1e1d68;
+}
+
+.bussiness-page .banner-2{
+    width: 100%;
+    height: 45rem;
+    background: #505763 url(../images/header-image-22.jpg) center center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+	
+}
+
+.bussiness-page .overlay-2{
+    top: 0;
+    background-color: #151348;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    left: 0;
+    bottom: 0;
+    
+    -webkit-clip-path: polygon(0 0,90% 0,100% 100%,0 100%);
+    clip-path: polygon(0 0,90% 0,100% 100%,0 100%);
+
+}
+
+.bussiness-page .logo-section .owl-dots{
+  text-align: center;
+}
+
+.bussiness-page .logo-section .owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #222222 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.bussiness-page .logo-section .owl-dot.active {
+  background-color: #FF170F !important;
+}
+
+
+
+/* ignore the code below */
+
+
+.bussiness-page .logo-section .link-area
+{
+  position:fixed;
+  bottom:20px;
+  left:20px;  
+  padding:15px;
+  border-radius:40px;
+  background:tomato;
+}
+
+.bussiness-page .logo-section .link-area a
+{
+  text-decoration:none;
+  color:#fff;
+  font-size:25px;
+}
+
+.bussiness-page .banner-3{
+    width: 100%;
+    height: 45rem;
+    background: #505763 url(../images/header-image-33.jpg) center center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+	
+}
+
+.bussiness-page .overlay-3{
+    top: 0;
+    background-color: #151348;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    left: 0;
+    bottom: 0;
+    -webkit-clip-path: polygon(0 0,100% 0,90% 100%,0 100%);
+    clip-path: polygon(0 0,100% 0,90% 100%,0 100%);
+
+}
+
+.bussiness-page .banner-3 h4 {
+    color: #cd4747;
+    font-size: 24px;
+    font-weight: 600px;
+    margin-bottom: 40px;
+}
+
+.bussiness-page .overlay-4{
+    top: 0;
+    background-color: #151348;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    left: 0;
+    bottom: 0;
+    
+    -webkit-clip-path: polygon(0 0,90% 0,100% 100%,0 100%);
+    clip-path: polygon(0 0,90% 0,100% 100%,0 100%);
+
+}
+
+.bussiness-page .banner-4{
+    width: 100%;
+    height: 45rem;
+    background: #505763 url(../images/header-image.jpg) center center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+	
+}
+
+
+
+.bussiness-page .overlay-5{
+    top: 0;
+    background-color: #151348;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    left: 0;
+    bottom: 0;
+     -webkit-clip-path: polygon(0 0,100% 0,90% 100%,0 100%);
+    clip-path: polygon(0 0,100% 0,90% 100%,0 100%);
+
+}
+
+.bussiness-page .banner-5{
+    width: 100%;
+    height: 45rem;
+    background: #505763 url(../images/header-image.jpg) center center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+	
+}
+
+
+
+.bussiness-page .btn-get-started {
+  
+    font-weight: 700;
+    font-size: 15px;
+    display: inline-block;
+    padding: 17px 60px;
+    border-radius: 0px;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+    background: #ec5252;
+    
+}
+
+.bussiness-page .overlay-6{
+    top: 0;
+    background-color: #cd4747;
+    position: absolute;
+    height: 45rem;
+    width: 60%;
+    left: 0;
+    bottom: 0;
+     -webkit-clip-path: polygon(0 0,100% 0,90% 100%,0 100%);
+    clip-path: polygon(0 0,100% 0,90% 100%,0 100%);
+
+}
+
+
+.bussiness-page .banner-6{
+    width: 100%;
+    height: 45rem;
+    background: #505763 url(../images/header-image.jpg) center center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+	
+}
+
+.bussiness-page .overlay-7{
+    top: 0;
+    background-color: #cd4747;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    left: 0;
+    bottom: 0;
+    
+    -webkit-clip-path: polygon(0 0,90% 0,100% 100%,0 100%);
+    clip-path: polygon(0 0,90% 0,100% 100%,0 100%);
+
+}
+
+
+.bussiness-page .banner-7{
+ width: 100%;
+    height: 45rem;
+    background: #505763 url(../images/header-image-44.jpg) center center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+	
+}
+
+.bussiness-page .testimonials{
+	background-color: #fafaf7;
+	position: relative;
+	padding-top: 4rem;
+	padding-bottom
+	: 4rem;
+	&:after{
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 30%;
+		background-color: #ddd;
+	}
+}
+.bussiness-page #customers-testimonials{
+	.item-details{
+		background-color: #333333;
+		color: #fff;
+		padding: 20px 10px;
+		text-align: left;
+		h5{
+			margin: 0 0 15px;
+			font-size: 18px;
+			line-height: 18px;
+			span{
+				color: red;
+				float:right;
+				padding-right: 20px;
+			}
+		}
+		p{
+			font-size: 14px;
+		}
+	}
+	.item {
+			text-align: center;
+			// padding: 20px;
+			margin-bottom:80px;
+	}
+}
+.bussiness-page .testimonials-section .owl-carousel .owl-nav [class*='owl-'] {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.bussiness-page .testimonials-section .owl-carousel .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+}
+.bussiness-page .testimonials-section .owl-carousel {
+  position: relative;
+}
+.bussiness-page .testimonials-section .owl-carousel .owl-next,
+.bussiness-page .owl-carousel .owl-prev {
+  width: 50px;
+  height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+  position: absolute;
+  top: 30%;
+	font-size: 20px;
+  color: #fff;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+.bussiness-page .testimonials-section .owl-carousel .owl-prev {
+  left: -10px;
+}
+.bussiness-page .testimonials-section .owl-carousel .owl-next {
+  right: 10px;
+}
+
+.bussiness-page .bussiness-page p.testimonials-info {
+    color: #151348;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.bussiness-page .testimonials-section .owl-carousel .owl-nav button.owl-next, .bussiness-page .testimonials-section .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+   
+	font-size: 18px;
+	border-radius: 0px;
+	position: relative;
+	margin-top: 40px;
+	font-weight: 300;
+	
+
+}
+
+.bussiness-page .testimonials-section button.owl-prev {
+    background-color: #ccbdb2 !important;
+}
+
+.bussiness-page .testimonials-section button.owl-next {
+    background-color: #edece6 !important;
+}
+
+.bussiness-page .testimonials-section button.owl-prev:hover {
+    background-color: #928277 !important;
+}
+
+.bussiness-page .testimonials-section button.owl-next:hover {
+    background-color: #928277 !important;
+}
+
+
+ .bussiness-page .flex.justify-center.txt-center {
+    text-align: center;
+}
+
+
+.bussiness-page h1.clients-name {
+    color: #151348;
+    font-size: 18px;
+	font-weight:300;
+}
+
+.bussiness-page h2.clients-profile{
+	color: #151348;
+    font-size: 18px;
+}
+
+
+.bussiness-page section.testimonials-section {
+    background-color: #fafaf7;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+.bussiness-page section#section-guide {
+    background-color: #151348;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+.bussiness-page .border-right {
+    border-right-width: 2px solid #706ee9;
+}
+
+.bussiness-page span.uppercase.font-roboto.font-bold.text-white {
+    background-color: #cd4747;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.bussiness-page a.text-xl {
+    font-size: 21px;
+    color: #ffffff;
+    margin-top: 20px;
+    /* padding-top: 30px; */
+    text-decoration: underline;
+}
+
+.bussiness-page .mb-4.mrtop {
+    margin-top: 30px;
+}
+.bussiness-pagea.text-x2 {
+    color: #706ee9;
+    font-size: 18px;
+}
+
+.bussiness-page .center-block1.small-content1 {
+    padding-left: 10%;
+}
+
+.bussiness-page .center-block2.small-content2 {
+    padding-left: 15%;
+}
+
+.bussiness-page span.uppercase.font-roboto.font-bold.text-white.text2{
+	
+background-color: #3433b2;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.bussiness-page section#section-Empower h2 {
+   color: #151348;
+    font-size: 21px;
+    font-weight: 400;
+}
+.bussiness-page .count-box.w40 {
+    width: 40%;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+.bussiness-page section#section-Empower h4 {
+    color: #151348;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+
+.bussiness-page #section-Empower button.button.btn-get {
+   color: #fff;
+    background-color: #cd4747;
+    border: 1px solid transparent;
+    margin-top: 30px;
+    font-size: 18px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.bussiness-page #section-Empower button.button.btn-get:hover {
+   color: #fff;
+    background-color: #4c0000;
+    
+}
+
+.bussiness-page p.text-lg1.font-bold {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+	
+}
+.bussiness-page a.free-trial {
+    color: #706ee9;
+}
+
+
+.bussiness-page section#logo-section h2 {
+    color: #706ee9;
+    text-align: center;
+    padding: 60px 0px 60px 0px;
+}
+
+
+
+.bussiness-page .content-video .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    min-height: 400px;
+    height: 400px;
+}
+
+
+.bussiness-page .content-video .item .cover {
+padding: 75px 0;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 10%;
+    left: 0;
+    /* background: rgba(0, 0, 0, 0.6); */
+    /* display: flex; */
+    align-items: center;
+    max-height: 300px;
+}
+.bussiness-page .content-video .item .cover .header-content {
+position: relative;
+    overflow: hidden;
+    width: 60%;
+    float: right;
+}
+
+.bussiness-page .content-video .item .cover .header-content h2 {
+  font-weight: 300;
+  font-size: 35px;
+  color: #fff;
+}
+.bussiness-page .content-video .item .cover .header-content h1 {
+  font-size: 48px;
+  margin-top: 30px;
+  font-weight: 600;
+  margin: 5px 0 20px;
+  word-spacing: 3px;
+  color: #706ee9;
+}
+.bussiness-page .content-video .item .cover .header-content h4 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #fff;
+}
+
+
+.bussiness-page .content-video .owl-item.active h1 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight;
+  animation-delay: 0.3s;
+}
+.bussiness-page .content-video .owl-item.active h2 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+   animation-name: fadeInRight;
+  animation-delay: 0.3s;
+}
+.bussiness-page .content-video .owl-item.active h4 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight;
+  animation-delay: 0.3s;
+}
+.bussiness-page .content-video .owl-item.active .line {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInRight;
+  animation-delay: 0.3s;
+}
+.bussiness-page .content-video .owl-nav .owl-prev {
+  position: absolute;
+  left: 59%;
+  top: 70%;
+  opacity: 1;
+  background: #b3b2ff !important;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 0;
+}
+.bussiness-page .content-video .owl-nav .owl-prev span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+.content-video .owl-nav .owl-prev:focus {
+  outline: 0;
+}
+
+.content-video .owl-nav .owl-next {
+  position: absolute;
+  right: 36%;
+  top: 70%;
+  opacity: 1;
+  background: #e5e5e5 !important;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 0;
+  
+}
+.content-video .owl-nav .owl-next span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+.content-video .owl-nav .owl-next:focus {
+  outline: 0;
+}
+.content-video .owl-nav .owl-next:hover {
+  background: #706ee9 !important;
+}
+.content-video .owl-nav .owl-prev:hover {
+  background: #706ee9 !important;
+}
+
+.bussiness-page .border-l-8.banner-title1.border-blue {
+    border-left: 10px solid #3433b2;
+}
+.bussiness-page button.email-btn.demo-btn.btn-blue-bg {
+    background-color: #3433b2;
+}
+.bussiness-page h4.white-text {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.bussiness-page span.text-3 {
+    background-color: #3433b2;
+}
+
+.bussiness-page .border-right1 {
+    border-right: 2px solid #706ee9;
+}
+.bussiness-page button.button.btn-get.btn-fee-demo {
+    padding: 10px 60px;
+}
+
+.bussiness-page .single-logo {
+    text-align: center;
+}
+.testimonials-section .custum.carousel {
+    display: flex;
+}
+.testimonials-section .btn-pre:hover {
+    background-color: #928277;
+}
+
+.testimonials-section .btn-pre {
+    height: 3rem;
+    width: 3rem;
+    background-color: #928277;
+color: #fff;}
+.testimonials-section .svg-inline--fa.fa-w-14 {
+    width: 2.875em;
+    /* top: 1rem; */
+    margin-top: 10px;
+	color: #000000;
+}
+
+.content-video .modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+/*--------------------------------------------------------------
+
+
+
+
+

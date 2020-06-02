@@ -1,0 +1,50 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+.bussiness-page h1.main-text {font-size: 25px; line-height: 1.5;}
+.bussiness-page .border-l-8.banner-title1 { width: 100%;}
+.content-video .item .cover .header-content {width: 90%;}
+.content-video .item .cover .header-content h1 {font-size: 35px; margin-top: 35px;}
+.bussiness-page p.testimonials-info {font-size: 20px;line-height: 28px;}
+.bussiness-page .center-block1.small-content1 {padding-left: 0%;}
+.bussiness-page .center-block2.small-content2 {padding-left: 0%;}
+.bussiness-page a.text-xl {font-size: 18px;}
+.bussiness-page .count-box.w40 { width: 100%;}
+.bussiness-page .banner-1 input[type="email"] {width: 100%;}
+.bussiness-page .banner-1 .email-btn {margin-top: 30px;}
+.content-video .item .cover {top: 0%;}
+.content-video .item .cover {padding: 40px 0;}
+.content-video .owl-nav .owl-next {right: 64%; top: 75%;}
+.content-video .owl-nav .owl-prev {left: 15%; top: 75%;}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+.bussiness-page h1.main-text {font-size: 25px; line-height: 1.5;}
+.bussiness-page .border-l-8.banner-title1 { width: 100%;}
+.content-video .item .cover .header-content {width: 90%;}
+.content-video .item .cover .header-content h1 {font-size: 35px; margin-top: 35px;}
+.bussiness-page p.testimonials-info {font-size: 20px;line-height: 28px;}
+.bussiness-page .center-block1.small-content1 {padding-left: 0%;}
+.bussiness-page .center-block2.small-content2 {padding-left: 0%;}
+.bussiness-page a.text-xl {font-size: 18px;}
+.bussiness-page .count-box.w40 { width: 100%;}
+.bussiness-page .banner-1 input[type="email"] {width: 100%;}
+.bussiness-page .banner-1 .email-btn {margin-top: 30px;}
+.content-video .item .cover {padding: 40px 0;}
+.content-video .owl-nav .owl-next {right: 75%; top: 75%;}
+.content-video .owl-nav .owl-prev {left: 15%; top: 75%;}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+.content-video .item .cover {padding: 40px 0;}
+.content-video .owl-nav .owl-next {right: 36%; top: 70%;}
+.content-video .owl-nav .owl-prev {left: 59%; top: 70%;}	
+	
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2080px) {
+
+.content-video .owl-nav .owl-next {right: 39%; top: 75%;}
+.content-video .owl-nav .owl-prev {left: 57%; top: 75%;}		
+}
+
+

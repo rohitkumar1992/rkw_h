@@ -1,0 +1,26 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+h1.main-text {font-size: 25px; line-height: 1.5;}
+.border-l-8.banner-title1 { width: 100%;}
+header .item .cover .header-content {width: 90%;}
+header .item .cover .header-content h1 {font-size: 35px; margin-top: 35px;}
+p.testimonials-info {font-size: 20px;line-height: 28px;}
+.center-block1.small-content1 {padding-left: 0%;}
+.center-block2.small-content2 {padding-left: 0%;}
+a.text-xl {font-size: 18px;}
+.count-box.w40 { width: 100%;}
+.banner-1 input[type="email"] {width: 100%;}
+.banner-1 .email-btn {margin-top: 30px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+h1.main-text {font-size: 25px; line-height: 1.5;}
+.border-l-8.banner-title1 { width: 100%;}
+header .item .cover .header-content {width: 90%;}
+header .item .cover .header-content h1 {font-size: 35px; margin-top: 35px;}
+p.testimonials-info {font-size: 20px;line-height: 28px;}
+.center-block1.small-content1 {padding-left: 0%;}
+.center-block2.small-content2 {padding-left: 0%;}
+a.text-xl {font-size: 18px;}
+.count-box.w40 { width: 100%;}
+
+}
