@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@loadable/component": "^5.12.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "install": "^0.13.0",
     "jquery": "3.4.1",
     "primeicons": "^3.0.0-rc.1",
